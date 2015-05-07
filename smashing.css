@@ -1,0 +1,164 @@
+html {font-size: 1em;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 3.25;
+  color: #ffffff;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+h2 {font-size: 2.369em;
+}
+
+h3 {font-size: 1.777em;}
+
+h4 {font-size: 1.2em;}
+
+small, .font_small {font-size: 0.75em;}
+
+a:link, a:visited, a:active {
+text-decoration: none;
+color: #ffffff;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pinkcontainer {
+  background-color:#EC2767;
+  position: relative;
+}
+
+.navbar {
+  background-color: #AE1E57;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 6em;
+  width: 100%;
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: right;
+}
+
+.logo {
+  float: left;
+  position: fixed;
+  top: 15px;
+  left: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.welcome {
+  font-weight: bold;
+  text-align: left;
+  width: 58%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tiy-plus-sb {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.apply {
+  	background-color:#ae1e58;
+  	border-radius:5px;
+  	border:0px
+  	color:#ffffff;
+  	font-family:arial;
+  	font-size:16px;
+  	font-weight:bold;
+  	font-style:normal;
+  	height:50px;
+  	line-height:50px;
+  	width:100px;
+  	text-decoration:none;
+  	text-align:center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    display: inherit;
+  }
+
+  .apply:hover {
+    color: #EC2767;
+    background-color: #ffffff;
+  }
+
+.whatisthis {
+  font-weight: bold;
+  text-align: left;
+  width: 61%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+  display: block;
+  box-sixing: border-box 100%;
+}
+
+.progress {
+  background color: #353535;
+    text-align: center;
+    margin: 3em;
+}
+
+.about {
+  text-align: left;
+  img-align: center;
+  position: inline;
+  width: 61%;
+  height: auto;
+  margin: auto;
+}
+
+.mentors {
+  text-align: left;
+  position: inline;
+  width: 61%;
+  height: auto;
+  margin: auto;
+}
+
+.mentorgrid {
+  text-align: center;
+  width: 61%;
+  height: auto;
+  margin: auto;
+}
